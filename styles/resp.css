@@ -1,0 +1,86 @@
+
+@media only screen and (max-width: 50rem) {
+  .intro-head {
+    transform: scale(0.7);
+    transform-origin: left;
+}ul.nav-list-wrapper {
+    flex-wrap: wrap;
+    
+}.header-item {
+    padding: 1rem;
+}
+.hero-info {
+    width: 30ch;
+}
+.scroll-wrapper {
+    margin: 0;
+    width: 100%;
+    margin-top: -1rem;
+}
+header {
+    padding: 0rem !important;
+    background: #ffffff00;
+	box-shadow:0 0 7px 0px #0000001a;
+}
+.back-bg {
+    width: 0%;
+}
+body {
+    width: 100%;
+    height: fit-content;
+    overflow: hidden;
+}
+:root{
+	--at : 1.5s;
+	--ad : 0s;
+}
+ul.nav-list-wrapper > li {
+    color: black;
+	font-size:1.0rem;
+	border-bottom:0.5px whitesmoke solid;
+	width:100%;
+	display:contents;
+	
+}
+.dropdown{ display : block;}
+ul.nav-list-wrapper {
+    flex-wrap: wrap;
+    flex-direction: column;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+}
+.nav-wrapper-item {
+    display: block;
+    position: fixed;
+	right:0;
+    width: 0px;
+    background: white;
+    top: 64px;
+    height: 100vh;
+    overflow: auto;
+	padding:0;
+	padding-top:1.5rem;
+	overflow:hidden;
+	transition:0.5s;
+}
+ul.nav-list-wrapper  li a {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-bottom: 1px whitesmoke solid;
+}
+.dropdown-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: 1;
+    backdrop-filter: brightness(0.9);
+    transition: 0.4s;
+}
+.hidden{
+	display:none;
+}
+}

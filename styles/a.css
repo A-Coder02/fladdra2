@@ -1,0 +1,288 @@
+
+:root{
+	--at : 2s;
+	--ad : 2s;
+}
+
+#i1{
+	animation-name: i1;
+	animation-duration:var(--at);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:var(--ad); 
+}
+@keyframes i1{
+	from{
+		left:-30%;
+		opacity:0;
+		}
+	to{
+		left:0%;
+		opacity:1;
+		}
+	
+}
+
+#i3{
+	animation-name: i3;
+	animation-duration:var(--at);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 0.5s); 
+}
+@keyframes i3{
+	from{
+		right:-30%;
+		opacity:0;
+		}
+	to{
+		right:0%;
+		opacity:1;
+		}
+	
+}
+#i5{
+	animation-name: i5;
+	animation-duration:var(--at);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 1s); 
+}
+@keyframes i5{
+	from{
+		left:-30%;
+		opacity:0;
+		}
+	to{
+		left:0%;
+		opacity:1;
+		}
+	
+}
+
+#i6{
+	animation-name: i6;
+	animation-duration:var(--at);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 1.5s); 
+}
+@keyframes i6{
+	from{
+		right:-30%;
+		opacity:0;
+		}
+	to{
+		right:0%;
+		opacity:1;
+		}
+	
+}
+.hero-info{
+	animation-name: hi;
+	animation-duration:var(--at);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 2s);
+position:relative;
+bottom:0;	
+}
+@keyframes hi{
+	from{
+		top:50px;
+		opacity:0;
+		}
+	to{
+		top:0;
+		opacity:1;
+		}
+	
+}
+.bga{
+	animation-name: bga;
+	animation-duration:var(--at);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 2s);
+	position:relative;
+	/* bottom:-100%;	 */
+}
+@keyframes bga{
+	from{
+		bottom:-60%;
+		opacity:0;
+		}
+	to{
+		bottom:0;
+		opacity:1;
+		}
+	
+}
+video#vid1 {
+	animation-name: vid;
+	animation-duration:calc(var(--at) + 1s);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) - 0.5s);
+	position:relative;
+	width:50%;
+	right:0;
+}
+@keyframes vid{
+	0%{
+		right:0%;
+		width:100%;
+		}
+		100%{
+		right:0%;
+		width:50%;
+		}
+	
+}
+
+.ha{
+	animation-name: ha;
+	animation-duration:calc(var(--at) + 3s);
+	animation-fill-mode: backwards;
+	position:relative;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 0.2s);
+	position:relative;
+	top:0;
+}
+@keyframes ha{
+	from{
+		top:-100%;
+		}
+	to{
+		top:0%;
+		}
+	
+}
+.back-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+video#vid1 {
+    height: 100%;
+}
+
+
+.dropdown-click::after{
+	animation-name: d-click11;
+	animation-duration:0.4s;
+	animation-fill-mode: backwards;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 0.2s);
+	/* position:relative; */
+	/* top:0; */
+}
+@keyframes d-click11{
+	0%{
+		transform: rotate(0deg);
+	top:30%;
+	animation-duration:1s;
+		}
+	50%{
+		transform: rotate(0deg);
+	top:50%;
+		}
+		100%{
+		transform: rotate(45deg);
+	
+		}
+		
+	
+}
+.dropdown-click::before{
+	animation-name: d-click12;
+	animation-duration:0.4s;
+	animation-fill-mode: backwards;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 0.2s);
+	/* position:relative; */
+	/* top:0; */
+}
+@keyframes d-click12{
+	0%{
+		transform: rotate(0deg);
+	bottom:30%;
+	animation-duration:1s;
+		}
+	50%{
+		transform: rotate(0deg);
+	bottom:40%;
+		}
+		100%{
+		transform: rotate(-45deg);
+	
+		}
+		
+	
+}
+.dropdown-reset::after{
+	animation-name: d-click21;
+	animation-duration:0.4s;
+	animation-fill-mode: backwards;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 0.2s);
+	/* position:relative; */
+	/* top:0; */
+}
+@keyframes d-click21{
+	0%{
+		transform: rotate(45deg);
+	top:50%;
+	animation-duration:1s;
+		}
+	50%{
+		transform: rotate(0deg);
+	top:50%;
+		}
+		100%{
+		transform: rotate(0deg);
+	top:30%;
+		}
+		
+	
+}
+
+.dropdown-reset::before{
+	animation-name: d-click22;
+	animation-duration:0.4s;
+	animation-fill-mode: backwards;
+	backface-visibility: visible;
+	animation-delay:calc(var(--ad) + 0.2s);
+	/* position:relative; */
+	/* top:0; */
+}
+@keyframes d-click22{
+	0%{
+		transform: rotate(-45deg);
+	bottom:40%;
+	animation-duration:1s;
+		}
+	50%{
+		transform: rotate(0deg);
+	bottom:30%;
+		}
+		100%{
+		transform: rotate(0deg);
+	bottom:30%;
+		}
+		
+	
+}
+}
